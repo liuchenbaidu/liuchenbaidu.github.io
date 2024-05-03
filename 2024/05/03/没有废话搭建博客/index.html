@@ -386,13 +386,25 @@
                 <h5 id="安装博客环境"><a href="#安装博客环境" class="headerlink" title="安装博客环境"></a>安装博客环境</h5><h6 id="一、背景："><a href="#一、背景：" class="headerlink" title="一、背景："></a>一、背景：</h6><p>没有什么网页知识，也没有什么网页后端的知识，完全是想要有个个人的记录技术记录，给需要的人，和记录自己日子，自从三十以后，日子过得很快速很重复。</p>
 <p>以前总是在CSDN上写文章。</p>
 <p>有用的推荐，自己用开源免费</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># markdown 写作工具 ubuntu 下载appimage,直接运行就可以，注意下载属性改成可执行。</span><br><span class="line"></span><br><span class="line">marktext </span><br><span class="line"></span><br><span class="line"># 截图工具 Flameshot 火焰截图</span><br><span class="line"></span><br><span class="line">sudo apt install flameshot</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># markdown 写作工具 ubuntu 下载appimage,直接运行就可以，注意下载属性改成可执行。</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># marktext</span></span><br><span class="line"><span class="comment">#  两个快捷键盘 代码：ctrl+shift+k,表格：ctrl+shift+t</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 截图工具 Flameshot 火焰截图</span></span><br><span class="line"></span><br><span class="line">sudo apt install flameshot</span><br></pre></td></tr></table></figure>
 
 <img src="https://img.sysgeek.cn/img/2023/07/flameshot-screenshot-tool-2.jpg" title="" alt="Flameshot 火焰截图工具" width="313">
 
 
 
 <h6 id="二、步骤："><a href="#二、步骤：" class="headerlink" title="二、步骤："></a>二、步骤：</h6><p>1、安装nodejs,也就是一个代码的运行环境。<mark>注意一定要用nvm安装，这是经验。</mark></p>
+<p>2、安装matery主题</p>
+<p>3、免费部署到github pages</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1、生成可以部署到github的博客文件</span></span><br><span class="line">hexo g </span><br><span class="line"></span><br><span class="line"><span class="comment"># 2、开启本地测试</span></span><br><span class="line">hexo s</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3、自动部署到github pages</span></span><br><span class="line">hexo d</span><br><span class="line"></span><br><span class="line"><span class="comment"># 4、写文章</span></span><br><span class="line">hexo n <span class="string">&quot;文章名&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>部署的时候要配置，repo 注意写下图一样的</p>
+<p><img src="/home/ubuntu/.config/marktext/images/2024-05-03-15-59-07-image.png"></p>
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>目的就是快速搭建自己的网络自留地，花了两天时间，觉的这块理想情况下半个小时搞定，AI时代搭建个人免费的博客都这么慢，需要这些知识。这是我的一个目标，普通人可以快速实现自己网络博客。</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://juejin.cn/post/7260486342898810939">MarkText使用教程 - 掘金</a></p>
+</blockquote>
 
                 
             </div>
