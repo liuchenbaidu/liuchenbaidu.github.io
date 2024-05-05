@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>akshare金融数据快速使用</title>
+      <link href="/2024/05/05/akshare%20guide/"/>
+      <url>/2024/05/05/akshare%20guide/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1、背景"><a href="#1、背景" class="headerlink" title="1、背景"></a>1、背景</h2><p>金融数据比较贵，有了数据，可以做一些分析和量化，akshare是一个很好的免费的金融数据库，这是第二次使用了，这次比较<strong>成功和快</strong>，记下来分享给需要的东西立马食用</p><h2 id="2、原理"><a href="#2、原理" class="headerlink" title="2、原理"></a>2、原理</h2><h4 id="2-1-用python虚拟环境"><a href="#2-1-用python虚拟环境" class="headerlink" title="2.1 用python虚拟环境"></a>2.1 用python虚拟环境</h4><p>一定要用python3.12</p><h4 id="2-2-用镜像"><a href="#2-2-用镜像" class="headerlink" title="2.2 用镜像"></a>2.2 用镜像</h4><p> <strong>不要用官方的镜像</strong>,坑人，因为升级了后镜像没有人去升级了</p><p>1、下载</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/akfamily/akshare.git</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>2、生成镜像，镜像名：aktools:jupyter</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker build -f Dockerfile-Jupyter -t aktools:jupyter .</span><br></pre></td></tr></table></figure><p>3、使用镜像</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -it -p 8888:8888 --name akdocker -v $(<span class="built_in">pwd</span>):/home aktools:jupyter jupyter-lab --allow-root --no-browser --ip=0.0.0.0</span><br></pre></td></tr></table></figure><h2 id="3-、总结"><a href="#3-、总结" class="headerlink" title="3 、总结"></a>3 、总结</h2><p>维护还需要更细，尤其文档方面，开源方面的项目。·自己要会编译docker其次，希望项目都提供dockerfile</p><blockquote></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 金融 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> akshare </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>opitimize hexo</title>
       <link href="/2024/05/04/opitimize-hexo/"/>
       <url>/2024/05/04/opitimize-hexo/</url>
