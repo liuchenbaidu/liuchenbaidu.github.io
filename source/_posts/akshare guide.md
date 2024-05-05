@@ -1,16 +1,17 @@
 ---
-title: 快速简单搭建博客
+title: akshare金融数据快速使用
 abbrlink: 16647
-date: 2024-05-03 09:57:21
+date: 2024-05-05 09:57:21
 author: Ai君臣
 top: true
 cover: true
 toc: true
 mathjax: false
 summary: 
-categories: 博客
+categories: 金融
 tags:
   - 博客
+  - akshare
 ---
 
 ## 1、背景
